@@ -1,9 +1,9 @@
-# fa_rocm In Windows
-### flash_attn guild guide for rocm7.x
+# Build navi flash_attention python wheel package In Windows
+### flash_attn guild guide with rocm7.x for AMD Navi series GPU
 Install Git  
 Install VS 2022  
 Install Windows AMD HIP 7.1.1  
-Install pytorch, and torch rocm 7.2  
+Install pytorch, and torch rocm 7.2, from therock build: https://rocm.nightlies.amd.com/v2/gfx110X-all/  
 Make a junction:  
 ```mklink /J "C:\Users\USER_NAME\AppData\Local\miniconda3\envs\rocm\bin" "C:\Users\USER_NAME\AppData\Local\miniconda3\envs\rocm\Scripts"```
 
