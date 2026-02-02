@@ -1,5 +1,5 @@
 # Build navi flash_attention python wheel package In Windows
-### flash_attn guild guide with rocm7.x for AMD Navi series GPU
+### flash_attn build guide with rocm7.x for AMD Navi series GPU
 Install Git  
 Install VS 2022  
 Install Windows AMD HIP 7.1.1  
