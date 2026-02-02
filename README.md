@@ -5,10 +5,10 @@ Install VS 2022
 Install Windows AMD HIP 7.1.1  
 Download roc_wmma headers and unzip the headers to HIP directory: https://github.com/ROCm/rocWMMA/releases/tag/rocm-7.1.1  
 Install pytorch, and torch rocm 7.2, from therock build: https://rocm.nightlies.amd.com/v2/gfx110X-all/  
-Make a junction:  
+Make a junction, supposingly you have miniconda to manage your python venv, the the venv name is __rocm__:    
 ```mklink /J "C:\Users\USER_NAME\AppData\Local\miniconda3\envs\rocm\bin" "C:\Users\USER_NAME\AppData\Local\miniconda3\envs\rocm\Scripts"```
 
-Launch a developer powershell for VS 2022, then set the following env var, DO NOT USE CMD.EXE:  
+Launch a developer powershell for VS 2022, then set the following env var, __DO NOT USE CMD.EXE__:  
 > ```powershell
 > # ROCm Core Paths
 > $env:HIP_PATH = "C:\PROGRA~1\AMD\ROCm\7.1"
