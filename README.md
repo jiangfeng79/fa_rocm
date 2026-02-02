@@ -3,6 +3,7 @@
 Install Git  
 Install VS 2022  
 Install Windows AMD HIP 7.1.1  
+Download roc_wmma headers and unzip the headers to HIP directory: https://github.com/ROCm/rocWMMA/releases/tag/rocm-7.1.1  
 Install pytorch, and torch rocm 7.2, from therock build: https://rocm.nightlies.amd.com/v2/gfx110X-all/  
 Make a junction:  
 ```mklink /J "C:\Users\USER_NAME\AppData\Local\miniconda3\envs\rocm\bin" "C:\Users\USER_NAME\AppData\Local\miniconda3\envs\rocm\Scripts"```
